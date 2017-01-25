@@ -2,7 +2,7 @@
 	Johnny Fairfield-Sonn 
 	Tuesday, September 20th, 2016
 	style.css
-	The CSS file linked with resume.html.
+	The CSS file in ProjectPages for their styling
 */
 
 .img_circle {
@@ -120,10 +120,10 @@ h5{
 	line-height: 50%;
 }
 
-p {
-	/*font-family: "Comic Sans MS", "Comic Sans";*/
-	line-height: 70%;
-}
+/*p {
+	font-family: "Comic Sans MS", "Comic Sans";
+	line-height: 90%;
+}*/
 
 li {
 
