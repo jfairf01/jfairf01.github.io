@@ -61,6 +61,12 @@ div .links {
 
 .Side_info {
 	font-style: normal;
+	line-height: 20px;
+}
+.aboutStyle {
+	font-style: italic;
+	line-height: 24px;
+	font-size: 18px;
 }
 
 .subtitle {
@@ -77,15 +83,7 @@ ul {
 }
 
 body {
-	background: rgba(129,230,156,0.97);
-background: -moz-radial-gradient(center, ellipse cover, rgba(129,230,156,0.97) 0%, rgba(129,230,156,0.97) 0%, rgba(88,214,90,0.98) 29%, rgba(57,209,107,0.99) 64%, rgba(64,189,89,1) 93%, rgba(64,189,89,1) 100%);
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(129,230,156,0.97)), color-stop(0%, rgba(129,230,156,0.97)), color-stop(29%, rgba(88,214,90,0.98)), color-stop(64%, rgba(57,209,107,0.99)), color-stop(93%, rgba(64,189,89,1)), color-stop(100%, rgba(64,189,89,1)));
-background: -webkit-radial-gradient(center, ellipse cover, rgba(129,230,156,0.97) 0%, rgba(129,230,156,0.97) 0%, rgba(88,214,90,0.98) 29%, rgba(57,209,107,0.99) 64%, rgba(64,189,89,1) 93%, rgba(64,189,89,1) 100%);
-background: -o-radial-gradient(center, ellipse cover, rgba(129,230,156,0.97) 0%, rgba(129,230,156,0.97) 0%, rgba(88,214,90,0.98) 29%, rgba(57,209,107,0.99) 64%, rgba(64,189,89,1) 93%, rgba(64,189,89,1) 100%);
-background: -ms-radial-gradient(center, ellipse cover, rgba(129,230,156,0.97) 0%, rgba(129,230,156,0.97) 0%, rgba(88,214,90,0.98) 29%, rgba(57,209,107,0.99) 64%, rgba(64,189,89,1) 93%, rgba(64,189,89,1) 100%);
-background: radial-gradient(ellipse at center, rgba(129,230,156,0.97) 0%, rgba(129,230,156,0.97) 0%, rgba(88,214,90,0.98) 29%, rgba(57,209,107,0.99) 64%, rgba(64,189,89,1) 93%, rgba(64,189,89,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81e69c', endColorstr='#40bd59', GradientType=1 );
-	height: 100vh;
+	background: #00D7D7;
 }
 
 h1 {
@@ -111,13 +109,14 @@ h4 {
 	/*color: #cccc00;*/
 	font-size: 30px;
 	text-decoration: underline;
+	text-align: center;
 }
 
 h5{
-	font-size: 18px;
+	font-size: 20px;
 	text-shadow: .3px .3px;
 	font-style: italic;
-	line-height: 50%;
+	line-height: 70%;
 }
 
 p {
